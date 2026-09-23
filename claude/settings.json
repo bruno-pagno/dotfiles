@@ -1,0 +1,13 @@
+{
+  "model": "sonnet",
+  "enabledPlugins": {
+    "mattpocock-skills@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "theme": "dark",
+  "voiceEnabled": true
+}
