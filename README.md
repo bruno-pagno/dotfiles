@@ -10,6 +10,7 @@ Personal dotfiles and tool configs.
 - `vscode-keyboard-shortcuts-mac.json` — VS Code keybindings (macOS)
 - `claude/settings.json` — Claude Code settings (goes in `~/.claude/settings.json`)
 - `claude/skills/unslop/` — custom Claude Code skill that strips AI writing tells (goes in `~/.claude/skills/unslop/`)
+- `claude/skills/create-document/` — custom Claude Code skill for writing engineering task documents (goes in `~/.claude/skills/create-document/`)
 
 ## Usage
 
@@ -19,4 +20,5 @@ Symlink or copy the files you want into place, e.g.:
 ln -sf "$(pwd)/.vimrc" ~/.vimrc
 ln -sf "$(pwd)/claude/settings.json" ~/.claude/settings.json
 ln -sf "$(pwd)/claude/skills/unslop" ~/.claude/skills/unslop
+ln -sf "$(pwd)/claude/skills/create-document" ~/.claude/skills/create-document
 ```
